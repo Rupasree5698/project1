@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+    <h1>Survey Form</h1>
+    <hr>
+    <label for="Name">
+        <h2>Customer Name</h2>
+        <br>
+        <input type="text" id="Name" name="Enter Your First Name" required>Enter Your First Name
+        <input type="text" id="Name" name="Enter Your Second Name">Enter Your Second Name
+    </label>
+    <br>
+    <label for="Address"><h2>Address</h2>
+        <address>
+             <input type="text" name="Street Address" id="Address">Street Address
+             <input type="text" name="Street Address Line2" id="Address">Street Address Line2
+             <input type="text" name="City" id="Address">City
+             <input type="text" name="State" id="Address">State
+             <input type="number" name="Zip" id="Address">Zip
+             <select id="dropdown" name="Select Country" id="Address">Select Country
+                   <option disabled selected value>Select Country</option>
+                   <option value="India">India</option>
+                   <option value="USA">USA</option>
+                   <option value="UK">UK</option>
+                   <option value="Singapore">Singapore</option>
+                   <option value="Japan">Japan</option>
+                   <option value="China">China</option>
+             </select>
+        </address>
+    </label>
+    <br>
+    <label for="contact"><h2>Contact</h2>
+    <input type="number" name="Phone" id="contact">Phone
+    <input type="email" name="Email" id="contact">Email
+    </label>
+    <br>
+    <label for="gender"><h2>Personal Details</h2>
+        <input type="radio" name="Male" id="gender">Male
+        <br>
+        <input type="radio" name="Female" id="gender">Female
+        <br>
+        <input type="radio" name="other" id="gender">Other
+    </label>
+    <br>
+    <label><h2>Ratings</h2>
+        <legend>Rating 1:
+            <input type="radio" name="Bad">Bad
+            <input type="radio" name="Good">Good
+            <input type="radio" name="Excellent">Excellent
+        </legend>
+        <legend>Rating 2:
+            <input type="radio" name="Bad">Bad
+            <input type="radio" name="Good">Good
+            <input type="radio" name="Excellent">Excellent
+        </legend>
+        <legend>Rating 3:
+            <input type="radio" name="Bad">Bad
+            <input type="radio" name="Good">Good
+            <input type="radio" name="Excellent">Excellent
+        </legend>
+        <legend>Rating 4:
+            <input type="radio" name="Bad">Bad
+            <input type="radio" name="Good">Good
+            <input type="radio" name="Excellent">Excellent
+        </legend>
+        <legend>Rating 5:
+            <input type="radio" name="Bad">Bad
+            <input type="radio" name="Good">Good
+            <input type="radio" name="Excellent">Excellent
+        </legend>
+        <legend>Rating 6:
+            <input type="radio" name="Bad">Bad
+            <input type="radio" name="Good">Good
+            <input type="radio" name="Excellent">Excellent
+        </legend>
+        <legend>Rating 7:
+            <input type="radio" name="Bad">Bad
+            <input type="radio" name="Good">Good
+            <input type="radio" name="Excellent">Excellent
+        </legend>
+    </label>
+        <button type="submit" name="Submit">Submit</button>
+    </form>
+</body>
+</html>

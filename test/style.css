@@ -1,0 +1,23 @@
+body{
+    background-color: gray;
+    color: white;
+}
+h1{
+    font-size: 50px;
+}
+label{
+    font-size: 30px;
+}
+form{
+    width: 800px;
+    left: 500px;
+    position: relative;
+}
+input{
+    background-color: white;
+    color: white;
+    font-size: 20px;
+}
+button{
+    display:block;
+}
